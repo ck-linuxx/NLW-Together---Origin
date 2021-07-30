@@ -370,8 +370,15 @@ nav.show div.icon-close{
     background: white;
 }
 
+#testimonials .container{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 #testimonials header{
     margin-bottom: 0;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 #testimonials blockquote{
