@@ -33,7 +33,7 @@ window.addEventListener('scroll', function(){
 
 //Testimonials Sliders swiper
 const swiper = new Swiper('.swiper-container', {
-    sliderPerView 1,
+    slidesPerView: 1,
     pagination: {
         el: '.swiper-pagination'
     },
