@@ -49,4 +49,10 @@ const scroll = ScrollReveal({
     reset: true
 })
 
-scroll.reveal(`#home .text, #home .image`, {interval: 100})
+scroll.reveal(
+    `#home .image, #home .text,
+    #about .image, #about .text,
+    #services header, #services .card,
+    #testimonials header, #textimonials .testimonials,
+    #contact .text, #contact .links
+     `, {interval: 100})
