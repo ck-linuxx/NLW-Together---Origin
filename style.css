@@ -143,6 +143,10 @@ main{
     color: var(--base-color);
 }
 
+.logo-alt span{
+    color: var(--body-color);
+}
+
 
 /*===Navigation======================*/
 
@@ -456,3 +460,6 @@ nav.show div.icon-close{
 }
 
 /*=== FOOTER ===============*/
+footer{
+    background-color: var(--base-color);
+}
