@@ -479,6 +479,6 @@ footer i{
     color: var(--text-color-light);
 }
 
-footer .social{
-    grid-auto-flow: column;
+footer .social a{
+    margin-right: 2rem;
 }
