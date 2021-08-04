@@ -33,6 +33,9 @@ img{
   --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
 
+  /*Fontes*/
+  --title-font-size: 1.875rem;
+
 }
 /*===Base===*/
 
@@ -48,7 +51,7 @@ body{
 }
 
 .title{/* Fonte "Poppins", se o poppins não carregar, ele ira mostrar primeiro o sans-serif*/
-    font: 700 1.875rem "Poppins", sans-serif;
+    font: 700 var(--title-font-size) "Poppins", sans-serif;
     color: var(--title-color);
     -webkit-font-smoothing: auto;
 }
@@ -483,5 +486,17 @@ footer .social a{
     margin-right: 2rem;
 }
 
+/*=========Media Queries===========*/
+/* extra large devices: 1200 >
+   large devices: 1023 >
+   large devices: 992 >
+   medium devices: 767 >
+*/
+
 /*=== Responsivo ================*/
-@media
+@media (min-width: 992px){
+    :root{
+        --title-font-size: 2.25rem;
+    }
+
+}
