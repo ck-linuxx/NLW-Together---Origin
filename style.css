@@ -504,7 +504,7 @@ footer .social a{
 */
 
 /*=== Responsivo ================*/
-@media (min-width: 992px){
+@media (min-width: 92px){
     :root{
         --title-font-size: 2.25rem;
         --subtitle-font-size: 1.125rem;
