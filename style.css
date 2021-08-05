@@ -103,7 +103,7 @@ body{
 }
 
 .section{
-    padding: 5rem 0;
+    padding: calc(5rem + var(--header-height))0;
 }
 
 .section .title{
@@ -139,9 +139,6 @@ body{
     box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.15);/* x, y, blur, tamanho do blur*/
 }
 
-main{
-    margin-top: calc(var(--header-height) + 2rem);
-}
 
 
 /*===Logo======================*/
@@ -477,6 +474,10 @@ footer{
     background-color: var(--base-color);
 }
 
+footer.section{
+    padding: 4rem;
+}
+
 footer .logo{
     display: inline-block;
     margin-bottom: 1.5rem;
@@ -499,7 +500,9 @@ footer .social a{
 /*=========Media Queries===========*/
 /* extra large devices: 1200 >*/
 @media (min-width: 1200px){
-    
+    main{
+        margin-top: var(--header-height);
+    }
 }
 
 /*   large devices: 1023 > */
