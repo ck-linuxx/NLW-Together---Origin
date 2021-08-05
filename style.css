@@ -498,7 +498,12 @@ footer .social a{
 
 /*=========Media Queries===========*/
 /* extra large devices: 1200 >*/
+@media (min-width: 1200px){
+    
+}
+
 /*   large devices: 1023 > */
+
 /*   large devices: 992 >  Já foi feito */
 @media (min-width: 992px){
     :root{
