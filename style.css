@@ -497,13 +497,9 @@ footer .social a{
 }
 
 /*=========Media Queries===========*/
-/* extra large devices: 1200 >
-   large devices: 1023 >
-   large devices: 992 >  Já foi feito 
-   medium devices: 767 >
-*/
-
-/*=== Responsivo ================*/
+/* extra large devices: 1200 >*/
+/*   large devices: 1023 > */
+/*   large devices: 992 >  Já foi feito */
 @media (min-width: 992px){
     :root{
         --title-font-size: 2.25rem;
@@ -511,3 +507,7 @@ footer .social a{
     }
 
 }
+/*medium devices: 767 >*/   
+
+
+/*=== Responsivo ================*/
