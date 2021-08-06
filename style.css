@@ -519,8 +519,11 @@ footer .social a{
     }
 
     nav .menu ul li a.title{
-        font: 400 1em ;
+        font: 400 1em var(--body-font);
+    }
 
+    nav .menu ul li a{
+        
     }
 
     main{
