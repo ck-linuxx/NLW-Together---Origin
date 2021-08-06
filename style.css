@@ -502,6 +502,12 @@ footer .social a{
 /*=========Media Queries===========*/
 /* extra large devices: 1200 >*/
 @media (min-width: 1200px){
+
+    .container{
+        max-width: 1120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
     .section{
         padding: 10rem 0;
@@ -524,6 +530,21 @@ footer .social a{
 
     nav .icon-menu{
         display: none;
+    }
+
+    /*===HOME=====*/
+
+    #home .container{
+        grid-auto-flow: column;
+        justify-content: space-between;
+    }
+
+    #home .image{
+        order: 1;
+    }
+
+    #home .text{
+        order: 0;
     }
 
     main{
