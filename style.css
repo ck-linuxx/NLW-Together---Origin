@@ -532,6 +532,10 @@ footer .social a{
         display: none;
     }
 
+    main{
+        margin-top: var(--header-height);
+    }
+
     /*===HOME=====*/
 
     #home .container{
@@ -551,9 +555,9 @@ footer .social a{
         margin-left: -0.7rem;
     }
 
-    main{
-        margin-top: var(--header-height);
-    }
+
+
+ 
 }
 
 /*   large devices: 1023 > */
