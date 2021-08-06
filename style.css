@@ -537,6 +537,7 @@ footer .social a{
     #home .container{
         grid-auto-flow: column;
         justify-content: space-between;
+        margin: 0 auto;
     }
 
     #home .image{
@@ -545,6 +546,9 @@ footer .social a{
 
     #home .text{
         order: 0;
+        max-width: 24rem;
+        text-align: left;
+        margin-left: -0.7rem;
     }
 
     main{
