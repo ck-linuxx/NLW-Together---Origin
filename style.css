@@ -532,6 +532,8 @@ footer .social a{
         display: none;
     }
 
+    /*===Layout=========*/
+
     main{
         margin-top: var(--header-height);
     }
@@ -555,9 +557,8 @@ footer .social a{
         margin-left: -0.7rem;
     }
 
+    
 
-
- 
 }
 
 /*   large devices: 1023 > */
