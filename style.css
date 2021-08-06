@@ -500,6 +500,9 @@ footer .social a{
 /*=========Media Queries===========*/
 /* extra large devices: 1200 >*/
 @media (min-width: 1200px){
+    
+
+
     main{
         margin-top: var(--header-height);
     }
