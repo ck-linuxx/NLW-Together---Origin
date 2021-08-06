@@ -36,6 +36,8 @@ img{
   /*Fontes*/
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
+  --title-font: "Poppins", sans-serif;
+  --body-font: "DM Sans", sans-serif;
 
 }
 /*===Base===*/
@@ -45,14 +47,14 @@ html{
 }
 
 body{
-    font: 400 1rem "DM Sans", sans-serif;
+    font: 400 1rem var(--body-font);
     color: var(--text-color);
     background: var(--body-color);
     -webkit-font-smoothing: antialiased;
 }
 
 .title{/* Fonte "Poppins", se o poppins não carregar, ele ira mostrar primeiro o sans-serif*/
-    font: 700 var(--title-font-size) "Poppins", sans-serif;
+    font: 700 var(--title-font-size) var(--title-font);
     color: var(--title-color);
     -webkit-font-smoothing: auto;
 }
@@ -501,7 +503,25 @@ footer .social a{
 /* extra large devices: 1200 >*/
 @media (min-width: 1200px){
     
+    .section{
+        padding: 10rem 0;
+    }
 
+    nav .menu{
+        opacity: 1;
+        visibility: visible;
+        top: 0;
+    }
+
+    nav .menu ul {
+        display: flex;
+        gap: 2rem;
+    }
+
+    nav .menu ul li a.title{
+        font: 400 1em ;
+
+    }
 
     main{
         margin-top: var(--header-height);
