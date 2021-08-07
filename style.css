@@ -578,6 +578,11 @@ footer .social a{
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .card{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
 
 }
 
