@@ -320,9 +320,6 @@ nav.show div.icon-close{
     background: white;
   }
   
-  #about .image {
-    position: relative;
-  }
   
   #about .image::before {
     content: '';
@@ -554,7 +551,12 @@ footer .social a{
      /* about */
     #about .container {
         margin: 0 auto;
-        grid-auto-flow:unset;
+        grid-auto-flow:column;
+        justify-content: space-between;   
+    }
+
+    #about .text{
+        grid-auto-flow: column ;
     }
 }
 
