@@ -316,45 +316,38 @@ nav.show div.icon-close{
 }
 
 /*====about======================*/
-
-#about{
+#about {
     background: white;
-}
-
-#about .image{
+  }
+  
+  #about .image {
     position: relative;
-}
-
-
-#about .image::before{
-    content: '' ;
+  }
+  
+  #about .image::before {
+    content: '';
     height: 100%;
     width: 100%;
-    background-color: var(--base-color-second);
+    background: var(--base-color-second);
     position: absolute;
-    left: -33%;
     top: -8.3%;
-    margin-bottom: 0%;
+    left: -33%;
     z-index: 0;
-}
-
-#about .image img,
-#about .image::before{
-    border-radius: 0.25rem;
-}
-
-#about .image img{
+  }
+  
+  #about .image img {
     position: relative;
-}
-
-#about .text{
+  }
+  
+  #about .image img,
+  #about .image::before {
+    border-radius: 0.25rem;
+  }
+  
+  #about .text {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-}
-
-#about .title{
-    margin-bottom: -1rem;
-}
+  }
 
 /*===Services======================*/
 
@@ -558,9 +551,10 @@ footer .social a{
         margin-left: -0.7rem;
     }
 
-    #about .container{
+     /* about */
+    #about .container {
         margin: 0 auto;
-        grid-auto-flow: column;
+        grid-auto-flow:unset;
     }
 }
 
