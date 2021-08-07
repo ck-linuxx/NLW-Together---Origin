@@ -573,6 +573,11 @@ footer .social a{
         margin-right: auto;
     }
 
+    /*===Services===========*/
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 
 }
 
