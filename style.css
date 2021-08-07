@@ -504,6 +504,14 @@ footer .social a{
         padding: 10rem 0;
     }
 
+    .section header,
+    #testimonials header{
+        max-width: 32rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     nav .menu{
         opacity: 1;
         visibility: visible;
@@ -556,8 +564,16 @@ footer .social a{
     }
 
     #about .text{
-        grid-auto-flow: column ;
+        grid-auto-flow: column;
     }
+
+    /*===Testimonials=======*/
+    #testimonials .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 }
 
 /*   large devices: 1023 > */
@@ -574,3 +590,4 @@ footer .social a{
 
 
 /*=== Responsivo ================*/
+
