@@ -39,6 +39,9 @@ const swiper = new Swiper('.swiper-container', {
     },
     mousewheel: true,
     keyboard: true,
+    breakpoints: {
+        
+    }
 });
 
 //Scrollreveiw Mostrar elementos quando der scroll na página
