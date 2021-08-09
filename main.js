@@ -62,3 +62,5 @@ scroll.reveal(
     #testimonials header, #textimonials .testimonials,
     #contact .text, #contact .links
      `, {interval: 100})
+
+/**/
