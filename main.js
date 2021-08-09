@@ -63,4 +63,13 @@ scroll.reveal(
     #contact .text, #contact .links
      `, {interval: 100})
 
-/**/
+/*Menu ativo cpnforme a seção visivel na página*/
+const sections = document.querySelectorAll('main section[id]')
+
+function activeteMenuCurrentSection{
+
+}
+
+window.addEventListener('scroll', function() {
+    activeteMenuCurrentSection()
+})
