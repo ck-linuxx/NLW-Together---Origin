@@ -66,7 +66,7 @@ scroll.reveal(
 /*Menu ativo cpnforme a seção visivel na página*/
 const sections = document.querySelectorAll('main section[id]')
 
-function activeteMenuCurrentSection{
+function activeteMenuCurrentSection(){
 
     const checkpoint = window.pageYOffset + (window.innerHeight/8) * 4
 
