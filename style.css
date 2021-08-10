@@ -202,8 +202,6 @@ nav ul li a.active::after{
 nav ul li a:hover,
 nav ul li a.active{ /*Hover e pra quando passar o mouse em cima do objeto*/
     color: var(--base-color);
-    font-weight: bold;
-    -webkit-font-smothing: auto;
 }
 
 nav .menu{
@@ -530,6 +528,11 @@ footer .social a{
     nav .menu ul li a.title{
         font: 400 1em var(--body-font);
         -webkit-font-smothing: antialiased;
+    }
+
+    nav .menu ul li a.title.active{
+        font-weight:bold;
+        -webkit-font-smothing: auto;
     }
 
     nav .icon-menu{
