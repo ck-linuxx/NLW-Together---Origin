@@ -526,7 +526,7 @@ footer .social a{
     }
 
     nav .menu ul li a.title{
-        font: 400 1em var(--body-font);
+        font: 400 1rem var(--body-font);
         -webkit-font-smothing: antialiased;
     }
 
@@ -623,6 +623,19 @@ footer .social a{
 @media (min-width: 1023px),
 (max-width: 1199){
     /*===TEXTOS===========*/
+
+    #header .title{
+        font: 400 1rem var(--body-font)
+    }
+
+    #header .container{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    #home img{
+        
+    }
 
     .text p,
     .cards p{
