@@ -620,12 +620,13 @@ footer .social a{
 
 /*   large devices: 1023 > */
 
-@media (min-width: 1023px){
+@media (min-width: 1023px),
+(max-width: 1199){
     /*===TEXTOS===========*/
 
     .text p,
     .cards p{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     nav .icon-menu{
@@ -642,6 +643,8 @@ footer .social a{
         display: flex;
         gap: 1rem;
     }
+
+
 
 }
 
