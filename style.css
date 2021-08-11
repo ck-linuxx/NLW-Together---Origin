@@ -620,7 +620,11 @@ footer .social a{
 
 /*   large devices: 1023 > */
 
-/*   large devices: 992 >  Já foi feito */
+@media (min-width: 1023px){
+    
+}
+
+/*   large devices: 992 > */
 @media (min-width: 992px){
     :root{
         --title-font-size: 2.25rem;
