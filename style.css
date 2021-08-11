@@ -621,7 +621,28 @@ footer .social a{
 /*   large devices: 1023 > */
 
 @media (min-width: 1023px){
-    
+    /*===TEXTOS===========*/
+
+    .text p,
+    .cards p{
+        font-size: 1.5rem;
+    }
+
+    nav .icon-menu{
+        display: none;
+    }
+
+    nav .menu{
+        opacity: 1;
+        visibility: visible;
+        top: 0;
+    }
+
+    nav .menu ul{
+        display: flex;
+        gap: 1rem;
+    }
+
 }
 
 /*   large devices: 992 > */
