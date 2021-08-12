@@ -655,7 +655,11 @@ footer .social a{
         gap: 1rem;
     }
 
-
+    footer .container{
+        grid-auto-flow: column;
+        align-items: center;
+        justify-content: space-between;
+    }
 
 }
 
