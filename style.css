@@ -671,7 +671,11 @@ footer .social a{
     }
 
 }
-/*medium devices: 767 >*/   
+/*medium devices: 767 >*/  
+@media(min-width: 767px),
+(max-width: 990px){
+    
+} 
 
 
 /*=== Responsivo ================*/
